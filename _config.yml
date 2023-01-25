@@ -1,5 +1,5 @@
 #page title
-page_title                                : VizLens - Appliance Reader iOS Application # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Image Explorer - Image Exploratoion iOS Application # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -11,7 +11,7 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : VizLens                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Image Explorer                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Appliance reader app for users with visual impairment
 
@@ -23,7 +23,7 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Human AI Lab at the University of Michigan                                
 your_link                                 : https://humanailab.com                     
 your_city                                 : Ann Arbor, Michigan                                
-email_address                             : humanailab-vizlens@umich.edu
+email_address                             : humanailab-imageexplorer@umich.edu
 facebook_username                         :                                           
 instagram_username                        : 
 twitter_username                          : 
