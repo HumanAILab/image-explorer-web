@@ -5,19 +5,19 @@ include_in_header: false
 ---
 
 **Last updated**  
-June 26, 2022
+Feb 20, 2023
 
 # Privacy Policy
 
-**TL;DR**: VizLens does not sell your data to anyone or use it for advertising. We will never read or access your private notes without written or verbal consent.
+**TL;DR**: Image Explorer does not sell your data to anyone or use it for advertising. We will never read or access your private notes without written or verbal consent.
 
-University of Michigan Human AI Lab built the VizLens app as a Free app. This SERVICE is provided by University of Michigan at no cost and is intended for use as is.
+University of Michigan Human AI Lab built the Image Explorer app as a Free app. This SERVICE is provided by University of Michigan at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
 If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at VizLens unless otherwise defined in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Image Explorer unless otherwise defined in this Privacy Policy.
 
 ## Information Collection and Use
 
@@ -58,4 +58,4 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 ## Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at humanailab-vizlens@umich.edu.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at humanailab-imageexplorer@umich.edu.
