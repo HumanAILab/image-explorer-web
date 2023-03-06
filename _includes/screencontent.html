@@ -26,7 +26,7 @@
         console.log("{{ file.path }}");
     });
 </script>
-<!-- {% elsif file.extname == ".ogg" %}
+{% elsif file.extname == ".ogg" %}
 <script>
     $(function () {
         $(".videoContainer").removeClass("hidden");
@@ -39,14 +39,6 @@
     $(function () {
         $(".videoContainer").removeClass("hidden");
         $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
-        console.log("{{ file.path }}");
-    });
-</script> -->
-{% elsif file.extname == ".gif" %}
-<script>
-    $(function () {
-        $(".videoContainer").removeClass("hidden");
-        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="image/gif">');
         console.log("{{ file.path }}");
     });
 </script>
