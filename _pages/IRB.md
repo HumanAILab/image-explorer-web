@@ -51,7 +51,7 @@ possible to remove your information.
 
 ## Contact information
 Principal Investigator: Anhong Guo\
-Email: [anhong@umich.edu](anhong@umich.edu)
+Email: anhong@umich.edu
 
 ## Consent
 I am age 18 or older Yes/No\
