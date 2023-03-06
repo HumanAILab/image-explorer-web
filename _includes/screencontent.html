@@ -18,14 +18,14 @@
     });
 </script>
 {% endunless %}
-{% if file.extname == ".mov" or file.extname == ".mp4" %}
+<!-- {% if file.extname == ".mov" or file.extname == ".mp4" %}
 <script>
     $(function () {
         $(".videoContainer").removeClass("hidden");
         $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
         console.log("{{ file.path }}");
     });
-</script>
+</script> -->
 <!-- {% elsif file.extname == ".ogg" %}
             <script>
                 $(function() {
@@ -34,11 +34,19 @@
                     console.log("{{ file.path }}");
                 });
             </script> -->
-{% elsif file.extname == ".webm" %}
+<!-- {% elsif file.extname == ".webm" %}
 <script>
     $(function () {
         $(".videoContainer").removeClass("hidden");
         $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+        console.log("{{ file.path }}");
+    });
+</script> -->
+{% if file.extname == ".gif" %}
+<script>
+    $(function () {
+        $(".videoContainer").removeClass("hidden");
+        $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="image/gif">');
         console.log("{{ file.path }}");
     });
 </script>
