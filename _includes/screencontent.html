@@ -25,16 +25,16 @@
         $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
         console.log("{{ file.path }}");
     });
-</script> -->
-<!-- {% elsif file.extname == ".ogg" %}
+</script>
+{% elsif file.extname == ".ogg" %}
             <script>
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
                     $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
                     console.log("{{ file.path }}");
                 });
-            </script> -->
-<!-- {% elsif file.extname == ".webm" %}
+            </script>
+{% elsif file.extname == ".webm" %}
 <script>
     $(function () {
         $(".videoContainer").removeClass("hidden");
