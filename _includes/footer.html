@@ -2,7 +2,12 @@
 	{% if site.your_name %}
 	<p class="footerText">Made with ❤️ by {% if site.your_link %}<a
 			href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %}
-		in {{ site.your_city }}{% endif %}</p>
+		in {{ site.your_city }}{% endif %}
+		<br>
+		Developer Team: <a href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
+			href="https://www.linkedin.com/in/dier-hou-614178227/">Dier Hou</a>, <a href="https://rueiche.me/">Ruei-Che
+			Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
+	</p>
 	{% endif %}
 
 	<div class="footerIcons">
@@ -54,11 +59,6 @@
 
 	</div>
 
-	<p class="developerText">Developer Team: <a
-			href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
-			href="https://rueiche.me/">Ruei-Che Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
-		<br>
-	</p>
 	<div class="footerLinks">
 		<p>
 			{% for page in site.pages %}
