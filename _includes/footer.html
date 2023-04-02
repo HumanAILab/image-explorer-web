@@ -54,19 +54,19 @@
 
 	</div>
 
-	<div>
-		<p class="developerText">Developer Team: <a
-				href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
-				href="https://rueiche.me/">Ruei-Che Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
-			<br>
-		</p>
-	</div>
+	<p class="developerText">Developer Team: <a
+			href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
+			href="https://rueiche.me/">Ruei-Che Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
+		<br>
+	</p>
 	<div class="footerLinks">
-		{% for page in site.pages %}
-		<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
-		{% endfor %}
-		{% if site.presskit_download_link %}
-		<a href="{{ site.presskit_download_link }}">Press Kit</a>
-		{% endif %}
+		<p>
+			{% for page in site.pages %}
+			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+			{% endfor %}
+			{% if site.presskit_download_link %}
+			<a href="{{ site.presskit_download_link }}">Press Kit</a>
+			{% endif %}
+		</p>
 	</div>
 </footer>
