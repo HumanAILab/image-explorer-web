@@ -4,10 +4,7 @@
 			href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %}
 		in {{ site.your_city }}{% endif %}</p>
 	{% endif %}
-	<p class="developerText">Developer Team: <a
-			href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
-			href="https://rueiche.me/">Ruei-Che Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
-	</p>
+
 	<div class="footerIcons">
 
 		{% if site.facebook_username %}
@@ -56,6 +53,11 @@
 		{% endif %}
 
 	</div>
+
+	<p class="developerText">Developer Team: <a
+			href="https://www.linkedin.com/in/%E6%97%BB%E5%AE%87-%E8%94%A1-19ba69236">Minyu Cai</a>, <a
+			href="https://rueiche.me/">Ruei-Che Chang</a>, <a href="https://guoanhong.com/">Anhong Guo</a>
+	</p>
 	<div class="footerLinks">
 		{% for page in site.pages %}
 		<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
